@@ -101,7 +101,7 @@ Here are some common scenarios where you might use multiple Docker Compose comma
 4. Stopping the entire system for maintenance:
    ```
    docker compose stop
-   docker compose rm -f
+   docker  compose rm -f
    docker compose pull
    docker compose up -d
    ```
